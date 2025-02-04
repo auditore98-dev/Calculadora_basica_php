@@ -2,7 +2,7 @@ const formCalculator=document.querySelector("#form-calculator");
 formCalculator.addEventListener("submit",async(e)=>{
     e.preventDefault();
     const formData=new FormData(e.target);
-    const response=await fetch("init.php",{
+    const response=await fetch("public/init.php",{
         method:'POST',
         body:formData
     });
