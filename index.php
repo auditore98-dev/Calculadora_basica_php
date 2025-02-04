@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form action="" method="POST">
-        <label for="number">Number 1:</label>
-        <input type="number" name="number" min="0" max="900">
-        <label for="number">Number 2:</label>
-        <input type="number" name="number2" min="0" max="900">
-        <label for="operacion"></label>
-        <select name="operaciones" id="operator">
-            <option value="+" selected>Suma</option>
-            <option value="-">Resta</option>
-            <option value="*">multiplicacion</option>
-            <option value="/">division</option>
-        </select>
-        <input type="submit" value="Calcular">
-    </form>
-
     <?php
     error_reporting(0);
     // var_dump($_SERVER);
@@ -89,7 +64,3 @@
         }
     }
     ?>
-
-</body>
-
-</html>
